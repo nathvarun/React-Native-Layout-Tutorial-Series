@@ -9,10 +9,8 @@
 - [React Native Layout Series Unsure Programmer](https://www.youtube.com/watch?v=cgg1HidN4mQ&list=PLy9JCsy2u97l3tMqxpw5H1ePTR-eJai-4)
 
 
-##How To Use ? 
+## How To Use ? 
 
 - Copy the project files from the respective Project folder into the Root Folder of the app
-- Run 
-``` npm install
-``` 
+- Run ``` npm install``` 
 - Thats It!
