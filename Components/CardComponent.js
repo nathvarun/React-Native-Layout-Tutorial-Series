@@ -23,7 +23,7 @@ class CardComponent extends Component {
             <Card>
                 <CardItem>
                     <Left>
-                        <Thumbnail source={require('../assets/me.jpg')} />
+                        <Thumbnail source={require('../assets/me.png')} />
                         <Body>
                             <Text>Varun </Text>
                             <Text note>Jan 15, 2018</Text>
