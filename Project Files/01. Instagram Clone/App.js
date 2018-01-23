@@ -1,27 +1,30 @@
-import React, { Component } from "react";
-import {
-  View,
-  Text,
-  StyleSheet
-} from "react-native";
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
+import { StackNavigator } from 'react-navigation'
+import MainScreen from './Components/MainScreen'
 
-class App extends Component {
+export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text>Copy the project files from respective project files folder into the Root of the app.</Text>
-        <Text> Run npm install </Text>
-        <Text> Thats it ! </Text>
-      </View>
+      <AppStackNavigator />
     );
   }
+
 }
-export default App;
+
+const AppStackNavigator = StackNavigator({
+
+  Main: {
+    screen: MainScreen
+  }
+})
+
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center'
-  }
+    justifyContent: 'center',
+  },
 });
