@@ -1,0 +1,14 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "dependencies": {
+    "expo": "^26.0.0",
+    "i": "^0.3.6",
+    "native-base": "^2.4.1",
+    "react": "16.3.0-alpha.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-26.0.0.tar.gz",
+    "react-native-star-rating": "^1.0.9",
+    "react-native-swiper": "^1.5.13",
+    "react-navigation": "^1.5.11"
+  }
+}
