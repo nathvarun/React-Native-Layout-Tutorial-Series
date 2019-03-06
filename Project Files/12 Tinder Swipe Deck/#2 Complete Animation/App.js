@@ -131,7 +131,7 @@ export default class App extends React.Component {
       else {
         return (
           <Animated.View
-
+            {...this.PanResponder.panHandlers}
             key={item.id} style={[{
               opacity: this.nextCardOpacity,
               transform: [{ scale: this.nextCardScale }],
